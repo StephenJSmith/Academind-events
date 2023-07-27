@@ -2,6 +2,7 @@ import { string } from 'prop-types';
 
 import './HelpBox.css';
 
+// Comment only - do NOT run Actions workflow
 function HelpBox({ title, text }) {
   return (
     <article className="help-box">
